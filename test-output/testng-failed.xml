@@ -2,15 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="Test" value="Still I am learning"/>
-    <parameter name="Name" value="Paresh"/>
-    <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="com.Regression.TestRunWithTestngLogin3">
+      <class name="com.BDD.cucumber.practice.RunnerPractice3">
         <methods>
-          <include name="getLogin"/>
+          <include name="setUpClass"/>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Regression.TestRunWithTestngLogin3 -->
+      </class> <!-- com.BDD.cucumber.practice.RunnerPractice3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

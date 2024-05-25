@@ -1,3 +1,4 @@
+@Smoke @Unit @Regression
 Feature: Login function test
 Description:
 Background:

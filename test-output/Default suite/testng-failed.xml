@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Regression.TestRunWithTestngFunctionalTest3">
+      <class name="com.BDD.cucumber.practice.RunnerPractice3">
         <methods>
-          <include name="getLogin"/>
+          <include name="setUpClass"/>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Regression.TestRunWithTestngFunctionalTest3 -->
+      </class> <!-- com.BDD.cucumber.practice.RunnerPractice3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

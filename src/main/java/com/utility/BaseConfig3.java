@@ -12,7 +12,7 @@ public String getConfig(String value) throws Exception{
 	Properties pro = new Properties();
 	pro.load(fis);
 	String  eachValue = pro.get(value).toString();
-	System.out.println(eachValue);
+	//System.out.println(eachValue);
 		
 	return eachValue;
 }
